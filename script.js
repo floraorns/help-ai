@@ -9,7 +9,7 @@ async function sendMessage() {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      "Authorization": "Bearer YOUR_API_KEY"
+      "Authorization": "Bearer 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"
     },
     body: JSON.stringify({
       model: "gpt-4",
